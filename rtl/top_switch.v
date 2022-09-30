@@ -200,7 +200,7 @@ counter counter_inst(
 .counter_ns             (counter_ns)
 );
 
-mac_top_ob#(
+mac_top#(
 .PORT_RX_ADDR	(7'h10),
 .PORT_TX_ADDR	(7'h11),
 .PORT_ER_ADDR	(7'h12),
@@ -259,7 +259,7 @@ u_mac_top_0
 	.counter_ns(counter_ns)
     );
 
-mac_top_ob#(
+mac_top#(
 .PORT_RX_ADDR	(7'h13),
 .PORT_TX_ADDR	(7'h14),
 .PORT_ER_ADDR	(7'h15),

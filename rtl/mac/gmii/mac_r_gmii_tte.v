@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mac_r_gmii(
+module mac_r_gmii_tte(
 input               rstn,
 input               clk,
 

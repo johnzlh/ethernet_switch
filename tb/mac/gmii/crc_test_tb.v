@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module crc_test();
+module crc_test_tb();
     reg clk, reset;
     reg [7:0]d;
     reg load_init;

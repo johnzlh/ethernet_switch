@@ -73,7 +73,7 @@ wire            tx_status_fifo_empty;
 wire    [63:0]  counter_ns_tx_delay;
 wire    [63:0]  counter_ns_gtx_delay;
 
-mac_r_gmii u_mac_r_gmii(
+mac_r_gmii_tte u_mac_r_gmii(
     .clk(clk),
     .rstn(rstn),
     .rx_clk(GMII_RX_CLK),
@@ -98,7 +98,7 @@ mac_r_gmii u_mac_r_gmii(
     .counter_ns_tx_delay(counter_ns_tx_delay),
     .counter_ns_gtx_delay(counter_ns_gtx_delay)
     );
-mac_t_gmii u_mac_t_gmii(
+mac_t_gmii_tte u_mac_t_gmii(
     .clk(clk),
     .rstn(rstn),
     .tx_clk(MII_TX_CLK),

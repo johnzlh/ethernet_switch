@@ -21,7 +21,7 @@
 
 
 
-module mac_t_gmii(
+module mac_t_gmii_tte(
 input               	rstn,
 input               	clk,
 input              		tx_clk,
